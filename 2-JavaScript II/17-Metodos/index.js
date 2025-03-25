@@ -3,14 +3,14 @@ const pessoa = {
     nome: "Rafael",
     idade: 21,
     dizerOla() {
-        alert("Olá, meu nome é " + this.nome)
+        console.log("Olá, meu nome é " + this.nome)
     }
 }
 
 const calculadora = {
     marca: "Samsung",
     somar(x, y){
-        return alert(x + y)
+        return console.log(x + y)
     }
 }
 
