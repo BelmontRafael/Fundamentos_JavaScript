@@ -27,7 +27,7 @@ do {
       break;
     case 2:
       const removedPatient = queue.shift();
-      if (queue.length > 0) {
+      if (removedPatient) {
         alert("Consultando paciente " + removedPatient);
       } else {
         alert("Fila vazia");
